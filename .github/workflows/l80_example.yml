@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: yebigun/lab:gh_lab80
+          images: yebigun/lab:gh_lab8
 
       - name: Build and push Docker image
         id: docker_build
